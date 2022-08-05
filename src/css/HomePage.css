@@ -1,0 +1,314 @@
+body{
+    background-color: #262626;
+}
+
+#ml-auto{
+    margin-left: auto;
+}
+
+.navbar-collapse.collapsing{ 
+    background: rgba(40,40,40,0.95);
+    text-align: center;
+}
+
+.collapse.navbar-collapse{
+    text-align: center;
+}
+.indicatorbtn:focus{
+    background-color: goldenrod !important;
+}
+
+.car-ind{
+    right: 60% !important;
+    bottom: 8%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.imgsizing {
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.alignItems {
+    float: right;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    width: 100%;
+    background: transparent;
+    top: 0;
+}
+
+a:hover{
+    background-color: #16c2e1;
+    border-radius: 20px;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.navbar.active{
+    background: #262626 !important;
+}
+
+.ImgBodyAlignment{
+    top: 30%;
+    right: 50%;
+    text-align: start;
+}
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.ownersection {
+    padding: 100px;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+    font-weight: bold;
+}
+
+.HeadOne {
+    color: #DDD;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.HeadTwo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #CCC;
+}
+
+.scrolloff {
+    overflow-x: hidden !important;
+}
+
+.HeadThree {
+    margin-bottom: 20px;
+    color: #CCC;
+}
+
+.HeadFour {
+    margin-bottom: 20px;
+    color: #CCC;
+}
+
+.SpecHeadOne {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #CCC;
+}
+
+.SpecList {
+    color: #CCC;
+    font-size: 20px;
+
+}
+
+.rowmargin {
+    margin-top: 80px;
+}
+
+.ProjectHeadTwo {
+    font-size: 26px;
+    color: white;
+}
+
+.paddingCol {
+    padding: 60px;
+}
+
+.imgcontainer {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+.carouseltitle{
+    font-size: 24px;
+}
+.carouselsubtitle{
+    font-size: 56px;
+}
+.btndark{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    padding: 30px;
+    background-color: white;
+    border: 3px solid goldenrod;
+}
+
+.imgcontainer:hover .overlay {
+    opacity: 1;
+}
+
+.textDate {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.textTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.textDescription {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.learnmore {
+    color: goldenrod;
+    font-weight: 700;
+}
+
+.learnmoreIcon {
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.paddingrow {
+    padding: 50px;
+}
+
+.removebullets {
+    list-style-type: none;
+}
+
+.fontfooterstyle {
+    font-size: 16px;
+    color: #CCC;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fontfooterstyle:hover {
+    color: goldenrod;
+}
+.hr{
+    color: #CCC;
+}
+.copyright {
+    font-size: 16px;
+    color: #CCC;
+}
+
+.paddingfooter {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+@media (max-width: 992px) {
+
+    .collapse.navbar-collapse{
+        background: rgba(40,40,40,0.95);
+        text-align: center;
+    }
+}
+
+@media (max-width: 468px) {    
+
+    .copyright {
+        margin: 20px;
+    }
+
+    .imgcontainer {
+        margin-bottom: 20px;
+    }
+
+    .mediaquery {
+        margin-bottom: 60px;
+    }
+
+    .mediaquerytwo {
+        padding-left: 30px;
+    }
+
+    .mediaquerythree {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .SpecHeadOne {
+        margin-top: 30px;
+    }
+.mediaqueryspec{
+    padding: 40px;
+}
+    .ownersection {
+        padding: 50px;
+    }
+
+    .scrolloff {
+        overflow-x: hidden !important;
+    }
+
+    .mediaqueryFour {
+        padding-left: 0;
+    }
+
+    .carouselitem {
+        height: 100vh !important;
+    }
+
+    .imgresponsives {
+        height: 100vh;
+        
+    }
+
+
+
+    .navbar-toggler {
+        background-color: white !important;
+    }
+    .carouselsubtitle{
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .imgsizing{
+        margin-left: 0px;
+    }
+}

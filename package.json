@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-prohealth",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-prohealth",
+  "author": "Muhammad Bin Aamir",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "embla-carousel-autoplay": "^7.0.0-rc05",
+    "embla-carousel-react": "^7.0.0-rc05",
+    "gatsby": "^4.19.2",
+    "gatsby-plugin-image": "^2.19.0",
+    "gatsby-plugin-sharp": "^4.19.0",
+    "gatsby-source-filesystem": "^4.19.0",
+    "gatsby-source-sanity": "^7.4.2",
+    "gatsby-transformer-sharp": "^4.19.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
